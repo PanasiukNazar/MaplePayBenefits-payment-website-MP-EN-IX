@@ -2509,6 +2509,10 @@ hero-btn {
     right: 47px;
     top: 0px;
 }
+
+.about-low-area .about-img .about-font-img img {
+    width: 100%;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .about-low-area .about-img .about-font-img {
         position: unset;
@@ -3046,6 +3050,12 @@ hero-btn {
 }
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text {
     padding-left: 20px;
+}
+.testimonial-area .testimonial-caption .testimonial-founder img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
     color: #fff;
